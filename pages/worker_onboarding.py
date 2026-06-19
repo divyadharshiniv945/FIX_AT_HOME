@@ -216,7 +216,7 @@ elif st.session_state.worker_step == 4:
 
               if st.button("Go to Dashboard"):
 
-                st.switch_page("pages/Worker_Dashboard.py")
+                st.switch_page("pages/worker_dashboard.py")
 
             welcome_popup()
 st.markdown("""
